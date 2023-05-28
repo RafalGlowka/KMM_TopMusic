@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Top 100 music albums</string>
+    <string name="list_is_empty">List is empty</string>
+    <string name="content_description_loading_image_error">Loading image error</string>
+    <string name="visit_the_album">Visit The Album</string>
+    <string name="list_title">Top 100 Albums of ${country}</string>
+    <string name="content_description_back_button">Back button</string>
+
+    <string name="connection_problem">Connection problem</string>
+    <string name="retry">Retry</string>
+    <string name="initialization_error">Initialization error</string>
+    <string name="something_went_wrong">Something went wrong</string>
+
+    <string name="country_ao">Angola</string>
+    <string name="country_us">United States</string>
+    <string name="country_pl">Poland</string>
+    <string name="country_gb">United Kingdom</string>
+    <string name="country_fr">France</string>
+    <string name="country_de">Germany</string>
+
+</resources>

@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-ios/Pods-ios-resources.sh
+${PODS_ROOT}/../../shared/src/commonMain/libres/fonts/bold.otf
+${PODS_ROOT}/../../shared/src/commonMain/libres/fonts/medium.otf
+${PODS_ROOT}/../../shared/src/commonMain/libres/fonts/regular.otf
+${PODS_ROOT}/../../shared/src/commonMain/libres/fonts/semibold_italic.otf
+${PODS_CONFIGURATION_BUILD_DIR}/shared/LibresShared.bundle

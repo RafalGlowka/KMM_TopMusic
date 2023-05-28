@@ -1,0 +1,71 @@
+[versions]
+androidLibraries = "8.2.0-alpha04"
+
+kotlin = "1.8.20"
+compose = "1.4.3"
+composePlugin = "1.5.0-dev1049"
+composeCompiler = "1.4.6"
+
+sqlDelight = "1.5.5"
+coroutines = "1.7.1" # 1.7.1 - ktor compilation problem
+ktor = "2.3.0"
+kermit = "1.2.2"
+koin = "3.3.2"
+androidxMaterial = "1.9.0"
+androidxFragmentKtx = "1.5.7"
+libres = "1.1.8"
+realm = "1.8.0"
+kotlinxDatetime = "0.4.0"
+kotlinxImmutable = "0.3.5"
+
+lottie = "6.0.0"
+
+kotest = "5.6.2"
+turbine = "0.12.3"
+mockk = "1.13.5"
+detekt = "1.23.0"
+detekt-compose = "0.1.5"
+
+[libraries]
+
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinxDatetime" }
+kotlinx-immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlinxImmutable" }
+
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+
+logger-kermit = { module = "co.touchlab:kermit", version.ref = "kermit" }
+
+libres-compose = { module = "io.github.skeptick.libres:libres-compose", version.ref = "libres" }
+
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-serialization = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
+ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
+
+android-material = { module = "com.google.android.material:material", version.ref = "androidxMaterial" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "androidxFragmentKtx" }
+androidx-compose-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "compose" }
+
+realm-base = { module = "io.realm.kotlin:library-base", version.ref = "realm" }
+
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+lottieCompose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottie" }
+
+kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotest-framework-engine = { module = "io.kotest:kotest-framework-engine", version.ref = "kotest" }
+kotest-framework-datatest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
+kotest-property = { module = "io.kotest:kotest-property", version.ref="kotest" }
+kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+
+turbine = { module = "app.cash.turbine:turbine", version.ref="turbine" }
+
+detekt = { module = "io.nlopez.compose.rules:detekt", version.ref = "detekt-compose" }
+detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
+

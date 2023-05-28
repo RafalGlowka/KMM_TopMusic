@@ -1,0 +1,145 @@
+processors:
+  active: true
+
+console-reports:
+  active: true
+
+complexity:
+  active: true
+  LongMethod:
+    active: false
+    threshold: 40
+  LongParameterList:
+    functionThreshold: 10
+    constructorThreshold: 12
+  LargeClass:
+    threshold: 150
+  CyclomaticComplexMethod:
+    threshold: 20
+  TooManyFunctions:
+    thresholdInFiles: 11
+    thresholdInClasses: 11
+    thresholdInInterfaces: 11
+    thresholdInObjects: 11
+    thresholdInEnums: 11
+  ComplexCondition:
+    threshold: 3
+  ComplexInterface:
+    active: true
+
+potential-bugs:
+  active: true
+  EqualsWithHashCodeExist:
+    active: true
+  ExplicitGarbageCollectionCall:
+    active: true
+
+exceptions:
+  active: true
+  TooGenericExceptionThrown:
+    active: false
+  TooGenericExceptionCaught:
+    active: false
+  SwallowedException:
+    active: false
+
+empty-blocks:
+  active: true
+
+formatting:
+  active: true
+  useTabs: true
+  Indentation:
+    active: false
+    indentSize: 4
+  ConsecutiveBlankLines:
+    active: true
+    autoCorrect: true
+  MultipleSpaces:
+    active: true
+    autoCorrect: true
+  MaximumLineLength:
+    active: true
+    maxLineLength: 140
+  FinalNewline:
+    active: false
+  SpacingAfterComma:
+    active: true
+    autoCorrect: true
+  SpacingAfterKeyword:
+    active: true
+    autoCorrect: true
+  SpacingAroundColon:
+    active: true
+    autoCorrect: true
+  SpacingAroundCurlyBraces:
+    active: true
+    autoCorrect: true
+  SpacingAroundOperator:
+    active: true
+    autoCorrect: true
+  TrailingSpaces:
+    active: true
+    autoCorrect: true
+  UnusedImports:
+    active: true
+    autoCorrect: true
+  OptionalSemicolon:
+    active: true
+    autoCorrect: true
+  OptionalUnit:
+    active: true
+    autoCorrect: true
+  ExpressionBodySyntax:
+    active: false
+    autoCorrect: true
+  ExpressionBodySyntaxLineBreaks:
+    active: false
+    autoCorrect: true
+
+style:
+  active: true
+  WildcardImport:
+    active: false
+  MaxLineLength:
+    active: true
+    maxLineLength: 140
+  NewLineAtEndOfFile:
+    active: false
+  UseCheckOrError:
+    active: false
+  ThrowsCount:
+    active: false
+  ReturnCount:
+    active: false
+  ForbiddenComment:
+    active: false
+
+comments:
+  active: true
+  CommentOverPrivateFunction:
+    active: true
+  CommentOverPrivateProperty:
+    active: true
+  UndocumentedPublicClass:
+    active: false
+  UndocumentedPublicFunction:
+    active: false
+  UndocumentedPublicProperty:
+    active: false
+
+naming:
+  active: true
+  FunctionNaming:
+    active: true
+    excludes: ['**/test/**', '**/androidTest/**', '**/commonTest/**', '**/jvmTest/**', '**/ioTest//**']
+    ignoreAnnotated: ['Composable']
+
+Compose:
+  ModifierMissing:
+    active: true
+    checkModifiersForVisibility: only_public
+
+
+
+
